@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feed_navigation"
+        android:icon="@drawable/feed"
+        android:title="@string/feed" />
+
+    <item
+        android:id="@+id/explore_navigation"
+        android:icon="@drawable/explore"
+        android:title="@string/explore" />
+
+    <item
+        android:id="@+id/write_navigation"
+        android:icon="@drawable/write"
+        android:title="@string/write" />
+
+    <item
+        android:id="@+id/like_navigation"
+        android:icon="@drawable/like"
+        android:title="@string/like" />
+
+    <item
+        android:id="@+id/account_navigation"
+        android:icon="@drawable/account"
+        android:title="@string/account" />
+</menu>

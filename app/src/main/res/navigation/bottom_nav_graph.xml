@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph"
+    app:startDestination="@id/feed_navigation">
+
+    <fragment
+        android:id="@+id/feed_navigation"
+        android:name="com.example.bebettaassignment.views.fragments.FeedFragment"
+        android:label="@string/feed"
+        tools:layout="@layout/fragment_feed" />
+
+    <fragment
+        android:id="@+id/explore_navigation"
+        android:name="com.example.bebettaassignment.views.fragments.ExploreFragment"
+        android:label="@string/explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/write_navigation"
+        android:name="com.example.bebettaassignment.views.fragments.WriteFragment"
+        android:label="@string/write"
+        tools:layout="@layout/fragment_write" />
+
+    <fragment
+        android:id="@+id/like_navigation"
+        android:name="com.example.bebettaassignment.views.fragments.LikeFragment"
+        android:label="@string/like"
+        tools:layout="@layout/fragment_like" />
+
+    <fragment
+        android:id="@+id/account_navigation"
+        android:name="com.example.bebettaassignment.views.fragments.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+
+
+</navigation>

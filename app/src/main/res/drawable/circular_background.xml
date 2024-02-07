@@ -1,0 +1,9 @@
+<!-- res/drawable/circular_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/bet_now_bg_color"/><!-- Change the color as needed -->
+
+    <stroke android:width="2dp"
+        android:color="@color/circular_bg_stroke" />
+
+</shape>

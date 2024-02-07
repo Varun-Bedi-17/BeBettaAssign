@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="circular_bg_stroke">#E0E0E0</color>
+    <color name="bottom_nav_bg_color">#101010</color>
+    <color name="bn_icon_selected_color">#F3F4F6</color>
+    <color name="bn_icon_unselected_color">#4D4D4D</color>
+    <color name="bet_now_bg_color">#33EEEEEE</color>
+    <color name="live_match_card_bg_color">#F2645F70</color>
+    <color name="view_all_text_color">#FF7300</color>
+    <color name="bottom_shet_bg_color">#5F5F5F</color>
+</resources>

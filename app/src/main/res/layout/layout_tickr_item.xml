@@ -1,0 +1,37 @@
+<!-- res/layout/item_horizontal_list.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="tickrModelItem"
+            type="com.example.bebettaassignment.models.TickrModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iv_circular"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/feed"
+            sourceImage="@{tickrModelItem.image}"
+            android:background="@drawable/circular_background"
+            android:contentDescription="@string/tickr_image" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_circular"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:text="@={tickrModelItem.name, default = @string/username}"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</layout>
